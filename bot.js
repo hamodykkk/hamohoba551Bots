@@ -263,6 +263,6 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
    }
    }); 
    
-	client.login("توكن البوت");
+
 
 client.login(process.env.BOT_TOKEN);
