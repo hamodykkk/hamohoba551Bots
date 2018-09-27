@@ -34,7 +34,7 @@ var now_playing = [];
 
 client.on('ready',  () => {
 
-client.user.setGame(`_play`,'https://www.twitch.tv/hix')
+client.user.setGame(`✋ ويبقى السؤال هل نحن أحياء حقآ ,أم نتنفس فقط`,'https://www.twitch.tv/hix')
 client.user.setStatus("online");
 });
 
