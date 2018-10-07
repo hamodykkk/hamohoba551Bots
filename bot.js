@@ -9,7 +9,7 @@ const http2 = require('http2');
 
 
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = 'r';
+const prefix = '11r';
 const discord_token = "token";
 client.login(discord_token);
 client.on('ready', function() {
