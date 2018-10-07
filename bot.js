@@ -34,7 +34,7 @@ var now_playing = [];
 
 client.on('ready',  () => {
 
-client.user.setGame(`Type Rhepl`,'https://www.twitch.tv/hix')
+client.user.setGame(`Type Rhelp`,'https://www.twitch.tv/hix')
 client.user.setStatus("online");
 });
 
