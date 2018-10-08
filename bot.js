@@ -58,7 +58,7 @@ client.on('ready', () => {
 
 });
 
-const prefix = "11r"
+const prefix = "1r"
 
 client.on('message', async msg => {
 
