@@ -76,7 +76,7 @@ client.on('ready', () => {
 
  
 
-let points = JSON.parse(fs.readFileSync( , ));
+let points = JSON.parse
 
 client.on('message', message => {
 
