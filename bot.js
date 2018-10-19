@@ -76,7 +76,7 @@ client.on('ready', () => {
 
  
 
-let points = JSON.parse(fs.readFileSync('points.json', 'utf8'));
+let points = JSON.parse(fs.readFileSync('', 'utf8'));
 
 client.on('message', message => {
 
