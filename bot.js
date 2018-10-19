@@ -88,7 +88,7 @@ client.on('message', message => {
 
         .setAuthor(message.author.username,message.author.avatarURL)
 
-        .addField(`نقاطك : ${points[message.author.id].points}`,'FiKO || ໑ڪــɹ̤ᓅ',   true) 
+        .addField(`نقاطك : ${points[message.author.id].points}`,'Mo Salah™',   true) 
 
         .setColor('RANDOM')
 
