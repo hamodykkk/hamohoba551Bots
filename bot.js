@@ -76,11 +76,11 @@ client.on('ready', () => {
 
  
 
-let points = JSON.parse(fs.readFileSync('', 'utf8'));
+let points = JSON.parse(fs.readFileSync( , ));
 
 client.on('message', message => {
 
-    if (!points[message.author.id]) points[message.author.id] = {points : 0}
+    if (points[message.author.id]) points[message.author.id] = {points : 0}
 
     if (message.content == 'نقاطي'){
 
