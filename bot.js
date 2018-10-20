@@ -68,7 +68,7 @@ client.on('ready', () => {
 
 client.on('ready', () => {
 
-  client.user.setGame(``,'https://www.twitch.tv/v5bz');
+  client.user.setGame(`💔 الحياة حلم، يوقظنا منه الموت`,'https://www.twitch.tv/v5bz');
 
 });
 
@@ -88,7 +88,7 @@ client.on('message', message => {
 
         .setAuthor(message.author.username,message.author.avatarURL)
 
-        .addField(`نقاطك : ${points[message.author.id].points}`,' 🔮 الحياة حلم، يوقظنا منه الموت',   true) 
+        .addField(`نقاطك : ${points[message.author.id].points}`,'',   true) 
 
         .setColor('RANDOM')
 
