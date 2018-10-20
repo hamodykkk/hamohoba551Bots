@@ -75,8 +75,7 @@ client.on('ready', () => {
  
 
  
-
-let points = JSON.parse(fs.readFileSync('points.json', 'utf8'));
+let points = JSON.parse(fs.readFileSync('fkkPTS.json', 'utf8'));
 
 client.on('message', message => {
 
@@ -84,18 +83,35 @@ client.on('message', message => {
 
     if (message.content == 'نقاطي'){
 
-        var embed = new Discord.RichEmbed()
+client.on('message', message => {
 
-        .setAuthor(message.author.username,message.author.avatarURL)
+if (message.content.startsWith(prefix + 'نقاطي')) {
 
-        .addField(`نقاطك : ${points[message.author.id].points}`,'',   true) 
+	if(!message.channel.guild) return message.reply('**هذا الأمر للسيرفرات فقط**').then(m => m.delete(3000));
 
-        .setColor('RANDOM')
+	let userData = points[message.author.id];
 
-        .setFooter('Games', client.user.avatarURL);
+	let embed = new Discord.RichEmbed()
 
-        message.channel.sendEmbed(embed)
+    .setAuthor(`${message.author.tag}`, message.author.avatarURL)
 
+	.setColor('#000000')
+
+	.setDescription(`نقاطك: \`${userData.points}\``)
+
+	message.channel.sendEmbed(embed)
+
+  }
+
+  fs.writeFile("fkkPTS.json", JSON.stringify(points), (err) => {
+
+    if (err) console.error(err)
+
+  })
+
+});
+    
+     
     };
 
     if (message.content == "فكك") {    
@@ -150,7 +166,7 @@ client.on('message', message => {
 
     }
 
-    fs.writeFile('points.json', JSON.stringify(points), (err) => {
+    fs.writeFile('fkkPTS.json', JSON.stringify(points), (err) => {
 
         if (err) console.error(err);
 
@@ -208,7 +224,7 @@ client.on('message', message => {
 
     }
 
-    fs.writeFile('points.json', JSON.stringify(points), (err) => {
+    fs.writeFile('fkkPTS.json', JSON.stringify(points), (err) => {
 
         if (err) console.error(err);
 
@@ -266,7 +282,7 @@ client.on('message', message => {
 
     }
 
-    fs.writeFile('points.json', JSON.stringify(points), (err) => {
+    fs.writeFile('fkkPTS.json', JSON.stringify(points), (err) => {
 
         if (err) console.error(err);
 
@@ -326,7 +342,7 @@ client.on('message', message => {
 
     }
 
-    fs.writeFile('points.json', JSON.stringify(points), (err) => {
+    fs.writeFile('fkkPTS.json', JSON.stringify(points), (err) => {
 
         if (err) console.error(err);
 
@@ -384,7 +400,7 @@ client.on('message', message => {
 
     }
 
-    fs.writeFile('points.json', JSON.stringify(points), (err) => {
+    fs.writeFile('fkkPTS.json', JSON.stringify(points), (err) => {
 
         if (err) console.error(err);
 
@@ -442,7 +458,7 @@ client.on('message', message => {
 
     }
 
-    fs.writeFile('points.json', JSON.stringify(points), (err) => {
+    fs.writeFile('fkkPTS.json', JSON.stringify(points), (err) => {
 
         if (err) console.error(err);
 
