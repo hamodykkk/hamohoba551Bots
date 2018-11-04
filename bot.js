@@ -4,8 +4,10 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setActivity("اﻟشخص اﻟذي يحاول إﺳتفزازك يموت ﺑطريقه صاﻣتة",{type: 'PLAYING'});
+    client.user.setGame(`وغآب ذاك الي وعندي م يخليني`,'https://www.twitch.tv/MeeRcY')
+
 });
+
 
 
 
