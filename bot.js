@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`):الناس صارت مرييضه`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`ilove you Yazeed`,'https://www.twitch.tv/MeeRcY')
 
 });
 
