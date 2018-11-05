@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`عاوز تعيش صح خليك غبي بطريقة ذكية`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`في ناس زي اللبانة في البداية بكونو حلوين وبعداك بمسخو `,'https://www.twitch.tv/MeeRcY')
 
 });
 
