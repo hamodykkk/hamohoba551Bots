@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`آحيانا يكفي أن نعرف انهم بخير لا أكثر`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`وراء كل قلب صآمت حكايـھ أخرست نبضآتہ ُ..!`,'https://www.twitch.tv/MeeRcY')
 
 });
 
