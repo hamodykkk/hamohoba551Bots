@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`): الشعب العربي لا يتقدم إلا في السن`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`عاوز تعيش صح خليك غبي بطريقة ذكية`,'https://www.twitch.tv/MeeRcY')
 
 });
 
