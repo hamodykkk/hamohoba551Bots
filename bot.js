@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`في ناس زي اللبانة في البداية بكونو حلوين وبعداك بمسخو `,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`من مميزات البنت القصيرة لو وقع تلفونها ما بتكسر`,'https://www.twitch.tv/MeeRcY')
 
 });
 
