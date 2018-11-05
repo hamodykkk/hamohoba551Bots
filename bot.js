@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`وراء كل قلب صآمت حكايـھ أخرست نبضآتہ ُ..!`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`السعادة أن تجد روح تشبه روحك كثيراً`,'https://www.twitch.tv/MeeRcY')
 
 });
 
