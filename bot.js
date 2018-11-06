@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`لا نراهم لكنهم يشاركوننا نفس الهواء`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`اقترب من الله يقترب منك كل شيء جميل..`,'https://www.twitch.tv/MeeRcY')
 
 });
 
