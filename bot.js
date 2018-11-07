@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`لَن يحزنني شيء فكل ما بداخلي مات`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`(: احذر مني لاني مجنون`,'https://www.twitch.tv/MeeRcY')
 
 });
 
