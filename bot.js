@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`مهاب يقول لاتكلم بنات`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`قلوب الناس ليست الجنة فلا تتعب نفسك من أجل البقاء فيها`,'https://www.twitch.tv/MeeRcY')
 
 });
 
