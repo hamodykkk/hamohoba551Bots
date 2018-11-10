@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`-:)مشغول (:-`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`كُن مثل الحياة ،،‏رافق الجميع ولا تتمسك بأحد`,'https://www.twitch.tv/MeeRcY')
 
 });
 
