@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`الوحدة هي الموت على أرض الواقع`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`(:- مشغوول -:)`,'https://www.twitch.tv/MeeRcY')
 
 });
 
