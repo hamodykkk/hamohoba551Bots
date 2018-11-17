@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`(:- مشغوول -:)`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`بكى القلم عندما نقل كلماتي، والبشر لا يشعرون بما أنا فيه`,'https://www.twitch.tv/MeeRcY')
 
 });
 
@@ -18,7 +18,7 @@ client.on('ready', () => {
 client.on('ready',async () => {
 console.log("Starting..");
 let g = client.guilds.get("441998122827120640");
-let c = g.channels.get("505439693999964182");
+let c = g.channels.get("501836835358769162");
 if(c.type === 'voice') {
 c.join();
 setInterval(() => {
