@@ -15,19 +15,20 @@ client.on('ready', () => {
 
 
 
-client.on('ready',async () => {
-console.log("Starting..");
-let g = client.guilds.get("475727449037209641");
-let c = g.channels.get("492968865110687764");
-if(c.type === 'voice') {
-c.join();
-setInterval(() => {
-if(!g.me.voiceChannel) c.join();
-}, 1);
-} else {
-console.log("Failed To Join:\n The Channel Type isn't "text"");
+client.on('message', msg => {
+
+    if (msg.content == '.') {
+        if (msg.member.voiceChannel) {
+
+     if (msg.member.voiceChannel.joinable) {
+         msg.member.voiceChannel.join().then(msg.react('✅'));
+     }
+    }
 }
-});
+})
+client.on('ready', () => { //code bot not leave room voice //Bot Is Online
+    client.channels.get("492968865110687764").join(); //by : iBeAnthonyD
+    });
 
 
 
