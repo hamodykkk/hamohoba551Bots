@@ -17,8 +17,8 @@ client.on('ready', () => {
 
 client.on('ready',async () => {
 console.log("Starting..");
-let g = client.guilds.get("441998122827120640");
-let c = g.channels.get("505439693999964182");
+let g = client.guilds.get("475727449037209641");
+let c = g.channels.get("492968865110687764");
 if(c.type === 'voice') {
 c.join();
 setInterval(() => {
@@ -36,4 +36,4 @@ console.log("Failed To Join:\n The Channel Type isn't "text"");
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login("NDQyMzQ4MzE3NzM3ODc3NTA0.DoLPHg.A2-HTBxnn1J_6cOlDTgUcmuAqo8");
