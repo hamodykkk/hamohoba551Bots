@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`بكى القلم عندما نقل كلماتي، والبشر لا يشعرون بما أنا فيه`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`im So Fucking Rage`,'https://www.twitch.tv/MeeRcY')
 
 });
 
