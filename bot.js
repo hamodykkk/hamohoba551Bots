@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`حديثهم شئ وحقيقتهم شئ أخر`,'https://www.twitch.tv/MeeRcY')
+    client.user.setGame(`التبرع مفتوح الماعه كريديت ومش محتاجه يحولي جزاكم الله خير`,'https://www.twitch.tv/MeeRcY')
 
 });
 
