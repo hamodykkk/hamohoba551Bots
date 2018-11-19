@@ -27,8 +27,8 @@ client.on('message', msg => {
 }
 })
 client.on('ready', () => { //code bot not leave room voice //Bot Is Online
-    client.guilds.get("475727449037209641");
-    client.channels.get("513679094504751105").join(); //by : jacky
+    client.guilds.get("441998122827120640");
+    client.channels.get("505439693999964182").join(); //by : Mohamed
     });
 
 
@@ -38,4 +38,5 @@ client.on('ready', () => { //code bot not leave room voice //Bot Is Online
 
 
 
-client.login("NDcwODI0NjA5NjA5MTU0NTcx.DoLRPw.YBXm9FoaIyZA54K-eFt12gQ3UXg");
+client.login(process.env.BOT_TOKEN);
+
