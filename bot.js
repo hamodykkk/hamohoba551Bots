@@ -4,8 +4,16 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    client.user.setGame(`التبرع مفتوح الماعه كريديت ومش محتاجه يحولي جزاكم الله خير`,'https://www.twitch.tv/MeeRcY')
 
+  const adminprefix = "";
+const devs = ['361217658190036999'];
+client.on('message', message => {
+  var argresult = message.content.split(` `).slice(1).join(' ');
+    if (!devs.includes(message.author.id)) return;
+if (message.content.startsWith(adminprefix + 'mo')) {
+  client.user.setGame(argresult, "https://www.twitch.tv/idk")
+    message.channel.sendMessage(`**:white_check_mark: تم تغير الحاله الي  : ${argresult}**`)
+}
 });
 
 
