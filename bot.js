@@ -35,21 +35,6 @@ if (message.content.startsWith(adminprefix + 'mo')) {
 
 
 
-client.on('message', msg => {
-
-    if (msg.content == '.') {
-        if (msg.member.voiceChannel) {
-
-     if (msg.member.voiceChannel.joinable) {
-         msg.member.voiceChannel.join().then(msg.react('✅'));
-     }
-    }
-}
-})
-client.on('ready', () => { //code bot not leave room voice //Bot Is Online
-    client.guilds.get("441998122827120640");
-    client.channels.get("505439693999964182").join(); //by : Mohamed
-    });
 
 
 
