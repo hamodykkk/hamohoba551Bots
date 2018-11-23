@@ -37,11 +37,5 @@ if (message.content.startsWith(adminprefix + 'mo')) {
 
 
 
-
-
-
-
-
-
 client.login(process.env.BOT_TOKEN);
 
