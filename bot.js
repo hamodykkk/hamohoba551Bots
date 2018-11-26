@@ -4,8 +4,6 @@ const fs = require('fs')
 
 const client = new Discord.Client();
 
-const prefix = '';
-
 client.on('ready', () => {
 
 
