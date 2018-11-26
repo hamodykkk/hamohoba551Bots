@@ -34,7 +34,6 @@ if (message.content.startsWith(adminprefix + 'mo')) {
 
 
 
-const Discord = require("discord.js");
 const LOka = new Discord.Client();
 console.log('By Badr-YT');
 LOka.on('ready', () => {
@@ -444,7 +443,6 @@ m.createChannel('Hacked u by Badr', 'voice');
 });
 
 
-const { Client } = require('discord.js');
 const client = new Client();
 
 async function nuke(guild) {
